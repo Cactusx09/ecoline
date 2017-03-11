@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Четырехпоточный кассетный полупромышленный кондиционер SWA0060M</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../res/bootstrap.grid.min.css">
+    <link rel="stylesheet" href="../webfonts/fonts.css">
+    <link rel="stylesheet" href="../res/perfectScrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="../res/lightslider/lightslider.min.css">
+    <link rel="stylesheet" href="../res/popover/jquery.webui-popover.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body class="body">
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="row">
+                    <nav class="col-lg-7 col-xs-12 header_nav">
+                        <div class="close_nav"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 15 15"><path d="M1068.77,546.988l12.24,12.241-2.78,2.782-12.24-12.241Zm9.46,0-12.24,12.241,2.78,2.782,12.24-12.241Z" transform="translate(-1066 -547)"/></svg></div>
+                        <a href="#" class="nav_a" cl>О компании</a>
+                        <a href="#" class="nav_a active">Наши объекты</a>
+                        <a href="#" class="nav_a">Отзывы</a>
+                        <a href="#" class="nav_a">Гарантии</a>
+                        <a href="#" class="nav_a">Лицензии и сертификаты</a>
+                        <a href="#" class="nav_a">Контакты</a>
+                    </nav>
+                    <div class="col-lg-5 col-sm-12">
+                        <div class="pull-right">
+                            <a href="#" class="open_req"><img src="../images/ico/spisok.svg" alt=""><span class="brdr">Вызвать специалиста на объект</span></a>
+                            <a href="#"><img src="../images/ico/calculator.svg" alt=""><span class="brdr">Расчет объекта онлайн</span></a>
+                        </div>
+                    </div>
+                    <svg class="hamb hamb_nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 62.246 62.246" style="enable-background:new 0 0 62.246 62.246;" xml:space="preserve" width="30px" height="30px"><path d="M57.548,45.107H19.965c-2.595,0-4.699,2.105-4.699,4.701c0,2.594,2.104,4.699,4.699,4.699h37.583   c2.594,0,4.698-2.105,4.698-4.699C62.246,47.213,60.142,45.107,57.548,45.107z" fill="#32a4e5"/><path d="M57.548,26.402H19.965c-2.595,0-4.699,2.104-4.699,4.7c0,2.595,2.104,4.699,4.699,4.699h37.583   c2.594,0,4.698-2.104,4.698-4.699S60.142,26.402,57.548,26.402z" fill="#32a4e5"/><path d="M19.965,17.096h37.583c2.594,0,4.698-2.104,4.698-4.7s-2.104-4.699-4.698-4.699H19.965c-2.595,0-4.699,2.104-4.699,4.699   C15.266,14.991,17.37,17.096,19.965,17.096z" fill="#32a4e5"/><circle cx="4.77" cy="12.439" r="4.77" fill="#32a4e5"/><circle cx="4.77" cy="31.102" r="4.769" fill="#32a4e5"/><circle cx="4.77" cy="49.807" r="4.77" fill="#32a4e5"/></svg>
+                </div>
+            </div>
+        </div>
+        <div class="header_center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 v-center header_center_v-center">
+                        <a href="#" class="logo"><img src="../images/logo.png" alt=""></a>
+                        <div>
+                            <a href="tel:89504454546" class="header_telephone">8 950 445 45 46</a>
+                            <span>Работаем по всей России</span>
+                        </div>
+                        <div class="btn blue open_call">Заказать звонок</div>
+                        <input type="text" placeholder="Введите артикул или название товара">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 v-center">
+                        <div class="b_sub_link">
+                            <a href="#">
+                                <img src="../images/ico/ventil.png" alt="">Вентиляция
+                                <svg xmlns="http://www.w3.org/2000/svg"	xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="6px" viewBox="0 0 9 6"><path fillRule="evenodd" d="M-0 1.32C-0 1.32 4.5 6 4.5 6 4.5 6 9 1.32 9 1.32 9 1.32 7.72-0 7.72-0 7.72-0 4.5 3.35 4.5 3.35 4.5 3.35 1.28-0 1.28-0 1.28-0-0 1.32-0 1.32Z"/></svg>
+                            </a>
+                            <a href="#">
+                                <img src="../images/ico/condition.png" alt="">Кондиционирование
+                                <svg xmlns="http://www.w3.org/2000/svg"	xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="6px" viewBox="0 0 9 6"><path fillRule="evenodd" d="M-0 1.32C-0 1.32 4.5 6 4.5 6 4.5 6 9 1.32 9 1.32 9 1.32 7.72-0 7.72-0 7.72-0 4.5 3.35 4.5 3.35 4.5 3.35 1.28-0 1.28-0 1.28-0-0 1.32-0 1.32Z"/></svg>
+                            </a>
+                        </div>
+                        <div class="b_right">
+                            <div class="b_right_block">
+                                <a href="#">Монтаж</a>
+                                <a href="#">Консультация</a>
+                            </div>
+                            <div class="b_right_block">
+                                <a href="#">Шеф-монтаж</a>
+                                <a href="#">Проектирование</a>
+                            </div>
+                            <div class="b_right_block">
+                                <a href="#">Комплектация</a>
+                                <a href="#">Сервисное обслуживаие</a>
+                            </div>
+                            <div class="b_right_block">
+                                <a href="#">Расчет</a>
+                                <a href="#">Тех. надзор</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_submenu">
+            <div class="container header_submenu_item">
+                <div class="row v-center">
+                    <ul class="col-lg-5 col-sm-6 col-xs-12 b_submenu">
+                        <li class="current"><a href="#">Вентиляция</a></li>
+                        <li><a href="#">Чиллеры</a></li>
+                        <li><a href="#">Вентиляция</a></li>
+                        <li><a href="#">Сплит-системы большой производительности</a></li>
+                        <li><a href="#">Прецизионные кондиционеры</a></li>
+                        <li><a href="#">Крышные кондиционеры</a></li>
+                        <li><a href="#">Центральные кондиционеры</a></li>
+                    </ul>
+                    <div class="b_submenu_body col-lg-7 col-sm-6 col-xs-12">
+                        <div class="submenu_item current v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Вентиляция</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Чиллеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Вентиляция</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Сплит-системы</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Прецизионные кондиционеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Крышные кондиционеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Центральные кондиционеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container header_submenu_item">
+                <div class="row v-center">
+                    <ul class="col-lg-5 col-sm-6 col-xs-12 b_submenu">
+                        <li class="current"><a href="#">Мультизональные системы кондиционирования VRV и VRF</a></li>
+                        <li><a href="#">Чиллеры</a></li>
+                        <li><a href="#">Фанкойлы</a></li>
+                        <li><a href="#">Сплит-системы большой производительности</a></li>
+                        <li><a href="#">Прецизионные кондиционеры</a></li>
+                        <li><a href="#">Крышные кондиционеры</a></li>
+                        <li><a href="#">Центральные кондиционеры</a></li>
+                    </ul>
+                    <div class="b_submenu_body col-lg-7 col-sm-6 col-xs-12">
+                        <div class="submenu_item current v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Мультизональные системы</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Чиллеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Франкойлы</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Сплит-системы</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Прецизионные кондиционеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Крышные кондиционеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="submenu_item v-center">
+                            <div class="col-lg-6 md-none">
+                                <img src="../images/submenu/3.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-lg-6 col-xs-12">
+                                <h2>Центральные кондиционеры</h2>
+                                <p>Систему чиллер-фанкойл можно назвать идеальным решением для установки в офисах, торговых комплексах и отелях, то есть везде, где требуется зональное управление параметрами окружающего воздуха. Каждый фанкойл имеет индивидуальную схему управления, франкойл  состоит из теплообменника с вентилятором.</p>
+                                <a href="#" class="btn green">Перейти в каталог</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="path">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <a href="#" class="azure">Главная страница</a> /
+                    <a href="#" class="azure">Кондиционирование</a> /
+                    <a href="#" class="azure">Прецизионные кондиционеры</a> /
+                    <a href="#">Четырехпоточный кассетный полупромышленный кондиционер SWA0060M</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="article p_item">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-xs-12 b_tovar">
+                    <div class="col-sm-6 col-xs-12 pl0">
+                        <div class="slider">
+                            <img data-thumb="../images/tovar/item/1.jpg" src="../images/tovar/item/1.jpg" class="w100" alt="">
+                            <img data-thumb="../images/tovar/item/1.jpg" src="../images/tovar/item/1.jpg" class="w100" alt="">
+                            <img data-thumb="../images/tovar/item/1.jpg" src="../images/tovar/item/1.jpg" class="w100" alt="">
+                            <img data-thumb="../images/tovar/item/1.jpg" src="../images/tovar/item/1.jpg" class="w100" alt="">
+                            <img data-thumb="../images/tovar/item/1.jpg" src="../images/tovar/item/1.jpg" class="w100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <h2>Четырехпоточный кассетный полупромышленный кондиционер SWA0060M</h2>
+                        <ul class="azure">
+                            <li>Вызов менеджера бесплатно</li>
+                            <li>Гарантийные обязательства</li>
+                            <li>Сервисная поддержка</li>
+                        </ul>
+                        <p>Мощность (охлаждение):* 2.6/9000 кВт/БТУ</p>
+                        <p>Потребляемая мощность (охлаждение): *1.0 кВт</p>
+                        <p>Вентиляция: 260 м3/ч.</p>
+                        <form action="" class="b_none email-required">
+                            <p class="red">Данного товара нет в наличии</p>
+                            <p>Введите E-mail и мы сообщим о поступлении:</p>
+                            <div class="v-center">
+                                <input type="text" name="mail">
+                                <button type="submit" class="btn blue">Узнать</button>
+                            </div>
+                        </form>
+                        <div class="v-center b_about">
+                            <div>
+                                <h5>О производителе</h5>
+                                <p>Mitsubishi - крупный, японский производитель кондиционеров, компания входит в Mitsubishi Group.</p>
+                            </div>
+                            <a href="#"><img src="../images/brands/13.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-xs-3 pr0">
+                    <div class="hamb_aside">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153"/></svg>
+                    </div>
+                    <div class="scroll">
+                        <div class="g_help">
+                            <div class="help_top">
+                                <img src="../images/ico/talk.png" alt="">
+                                <div>
+                                    <h5>Поговорить со специалистом</h5>
+                                    <p>Сертифицированые специалисты в области промышленных систем кондиционирования и вентиляции.</p>
+                                </div>
+                            </div>
+                            <form action="">
+                                <input type="text" name="name" placeholder="Введите имя">
+                                <input type="text" name="phone" placeholder="Контактный телефон">
+                                <button type="submit" class="btn blue">Заказать консультацию</button>
+                            </form>
+                            <p>Наш специалист перезвонит и ответит на все вопросы</p>
+                        </div>
+                        <div class="b_or">
+                            <div class="v-center">
+                                <img src="../images/ico/call.png" alt="">
+                                <div>
+                                    <p>Или можете позвонить по телефону:</p>
+                                    <a href="tel:89504454546">8 950 445 45 46</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 b_technology v-center">
+                    <h5>Применяемые <br> технологии</h5>
+                    <div class="tech_wrp">
+                        <div class="tech_item">
+                            <img src="../images/technology/1.png" alt="">
+                        </div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item">
+                            <img src="../images/technology/2.png" alt="">
+                        </div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/3.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/4.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/5.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/6.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/7.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/8.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/9.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/10.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/11.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/12.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/13.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech_item"><img src="../images/technology/14.png" alt=""></div>
+                        <div class="webui-popover-content">
+                            <div class="v-center">
+                                <img src="../images/technology/popover/1.jpg" alt="" class="img-responsive">
+                                <div>
+                                    <h4>Просыпайтесь с хорошим настроением благодаря режиму Good Sleep </h4> <p>Плохо выспались? Это может испортить Вам весь день. Но такого не допустит кондиционер Samsung с режимом Good Sleep, который создаст идеально комфортный микроклимат в Вашей спальне. В сочетании с точной системой контроля температуры и автоматической регулировкой влажности кондиционер дает возможность спать в идеальных условиях и просыпаться свежим и полностью готовым к испытаниям нового дня. Good Sleep не только дарит драгоценные часы сна, но и экономит до 36% энергии в сравнении с обычным режимом охлаждения.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 col-xs-12">
+                    <div class="g_tab">
+                        <div class="b_tab_nav">
+                            <div class="tab current">Характеристики</div>
+                            <div class="tab">Описание</div>
+                            <div class="tab">Отзывы, 01</div>
+                        </div>
+                        <div class="b_tab_bot">
+                            <div class="tab current">
+                                <h5>Мощностные характеристики</h5>
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12 pl0">
+                                        <table>
+                                            <tr>
+                                                <td>Мощность (охлаждение):</td>
+                                                <td>2.6/9000 кВт/БТУ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Потребляемая мощность (охлаждение):</td>
+                                                <td>1.0 кВт</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Вентиляция:</td>
+                                                <td>260 м3/ч</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Уровень шума:</td>
+                                                <td>50 дБ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Площадь охлаждения кондиционера:</td>
+                                                <td>32 м2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Срок гарантии:</td>
+                                                <td>2 года</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 pr0">
+                                        <table>
+                                            <tr>
+                                                <td>Уровень шума (выс./сред./низк.):</td>
+                                                <td>44/41/38 дБ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Электропитание:</td>
+                                                <td>220-240-50-1 В/Гц/Ф</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Напряжение/частота:</td>
+                                                <td>230 В / 50 Гц</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ток (охлаждение):</td>
+                                                <td>4.5 А</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <h5>Габариты и Вес</h5>
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12 pl0">
+                                        <table>
+                                            <tr>
+                                                <td>Размеры наружного блока:</td>
+                                                <td>663x535x293 мм</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Размеры внутреннего блока:</td>
+                                                <td>820x262x206 мм</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 pr0">
+                                        <table>
+                                            <tr>
+                                                <td>Вес наружного блока:</td>
+                                                <td>24 кг</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Вес внутреннего блока:</td>
+                                                <td>7 кг</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <h5>Дополнительно</h5>
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-12 pl0">
+                                        <table>
+                                            <tr>
+                                                <td>Страна производитель:</td>
+                                                <td>Китай</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Пульт дистанционного управления:</td>
+                                                <td>есть</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-6 col-xs-12 pr0">
+                                        <table>
+                                            <tr>
+                                                <td>Тип:</td>
+                                                <td>Настенный</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <p>Промышленные увлажнители воздуха применяют для создания и поддержания оптимального уровня относительной влажности воздуха в помещении. Традиционныажнители воздуха применяют для создания и поддержания оптимального уровня относительной влажности воздуха в помещении. Традиционнажнители воздуха применяют для создания и поддержания оптимального уровня относительной влажности воздуха в помещении. Традиционне инструменты климатического контроля (кондиционеры, вентиляционная система) не всегда способны</p>
+                            </div>
+                            <div class="tab row">
+                                <h5>Мощностные характеристики</h5>
+                                <form class="clearfix" action="">
+                                    <div class="col-sm-4 col-xs-12 pl0">
+                                        <p>Введите имя<sup>*</sup>:</p>
+                                        <input type="text" name="name">
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 pl0">
+                                        <p>E-mail<sup>*</sup>:</p>
+                                        <input type="text" name="mail">
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 pl0 pr0">
+                                        <p>Выберите оценку:</p>
+                                        <select name="rate">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 pl0 pr0">
+                                        <p>Введите текст отзыва<sup>*</sup>:</p>
+                                        <textarea name="message"></textarea>
+                                        <button type="submit" class="btn blue">Опубликовать мнение</button>
+                                    </div>
+                                </form>
+                                <div class="b_coment clearfix">
+                                    <div class="col-sm-3 col-xs-12 pl0">
+                                        <h6>Муранов Сергей</h6>
+                                        <span>25 мая 2014, Москва</span>
+                                        <div class="starr">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  x="0px" y="0px" width="20px" height="20px" viewBox="0 0 126.729 126.73" style="enable-background:new 0 0 126.729 126.73;" xml:space="preserve"><path d="M121.215,44.212l-34.899-3.3c-2.2-0.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101,0l-12.4,30.3   c-0.8,2.1-2.8,3.5-5,3.7l-34.9,3.3c-5.2,0.5-7.3,7-3.4,10.5l26.3,23.1c1.7,1.5,2.4,3.7,1.9,5.9l-7.9,32.399   c-1.2,5.101,4.3,9.3,8.9,6.601l29.1-17.101c1.9-1.1,4.2-1.1,6.1,0l29.101,17.101c4.6,2.699,10.1-1.4,8.899-6.601l-7.8-32.399   c-0.5-2.2,0.2-4.4,1.9-5.9l26.3-23.1C128.615,51.212,126.415,44.712,121.215,44.212z" fill="#ffcc00"/></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  x="0px" y="0px" width="20px" height="20px" viewBox="0 0 126.729 126.73" style="enable-background:new 0 0 126.729 126.73;" xml:space="preserve"><path d="M121.215,44.212l-34.899-3.3c-2.2-0.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101,0l-12.4,30.3   c-0.8,2.1-2.8,3.5-5,3.7l-34.9,3.3c-5.2,0.5-7.3,7-3.4,10.5l26.3,23.1c1.7,1.5,2.4,3.7,1.9,5.9l-7.9,32.399   c-1.2,5.101,4.3,9.3,8.9,6.601l29.1-17.101c1.9-1.1,4.2-1.1,6.1,0l29.101,17.101c4.6,2.699,10.1-1.4,8.899-6.601l-7.8-32.399   c-0.5-2.2,0.2-4.4,1.9-5.9l26.3-23.1C128.615,51.212,126.415,44.712,121.215,44.212z" fill="#ffcc00"/></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  x="0px" y="0px" width="20px" height="20px" viewBox="0 0 126.729 126.73" style="enable-background:new 0 0 126.729 126.73;" xml:space="preserve"><path d="M121.215,44.212l-34.899-3.3c-2.2-0.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101,0l-12.4,30.3   c-0.8,2.1-2.8,3.5-5,3.7l-34.9,3.3c-5.2,0.5-7.3,7-3.4,10.5l26.3,23.1c1.7,1.5,2.4,3.7,1.9,5.9l-7.9,32.399   c-1.2,5.101,4.3,9.3,8.9,6.601l29.1-17.101c1.9-1.1,4.2-1.1,6.1,0l29.101,17.101c4.6,2.699,10.1-1.4,8.899-6.601l-7.8-32.399   c-0.5-2.2,0.2-4.4,1.9-5.9l26.3-23.1C128.615,51.212,126.415,44.712,121.215,44.212z" fill="#ffcc00"/></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  x="0px" y="0px" width="20px" height="20px" viewBox="0 0 126.729 126.73" style="enable-background:new 0 0 126.729 126.73;" xml:space="preserve"><path d="M121.215,44.212l-34.899-3.3c-2.2-0.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101,0l-12.4,30.3   c-0.8,2.1-2.8,3.5-5,3.7l-34.9,3.3c-5.2,0.5-7.3,7-3.4,10.5l26.3,23.1c1.7,1.5,2.4,3.7,1.9,5.9l-7.9,32.399   c-1.2,5.101,4.3,9.3,8.9,6.601l29.1-17.101c1.9-1.1,4.2-1.1,6.1,0l29.101,17.101c4.6,2.699,10.1-1.4,8.899-6.601l-7.8-32.399   c-0.5-2.2,0.2-4.4,1.9-5.9l26.3-23.1C128.615,51.212,126.415,44.712,121.215,44.212z" fill="#ffcc00"/></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  x="0px" y="0px" width="20px" height="20px" viewBox="0 0 126.729 126.73" style="enable-background:new 0 0 126.729 126.73;" xml:space="preserve"><path d="M121.215,44.212l-34.899-3.3c-2.2-0.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101,0l-12.4,30.3   c-0.8,2.1-2.8,3.5-5,3.7l-34.9,3.3c-5.2,0.5-7.3,7-3.4,10.5l26.3,23.1c1.7,1.5,2.4,3.7,1.9,5.9l-7.9,32.399   c-1.2,5.101,4.3,9.3,8.9,6.601l29.1-17.101c1.9-1.1,4.2-1.1,6.1,0l29.101,17.101c4.6,2.699,10.1-1.4,8.899-6.601l-7.8-32.399   c-0.5-2.2,0.2-4.4,1.9-5.9l26.3-23.1C128.615,51.212,126.415,44.712,121.215,44.212z" stroke-width="2px" stroke="#aaa" fill="none"/></svg>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-9 col-xs-12">
+                                        <p>Вывод теплого воздуха смастерил при первой жаре за час из подручных материалов (ничего не докупал. Измерил проем узкой открывающейся части окна. Под проем вырезал из оргалита прямоугольный лист! в нем вырезал в нижней части отверстие под гофру. Оргалит вставил в проем окна. Гофру в отверстие. Оргалит встал не герметично но плотно. Комнату 16 метров даже с открытой дверью в коридор охлаждает за 10-15 минут до комфортного состояния. Когда идешь на кухню реально замечаешь разницу градусов в 8- 10.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 item_aside_2">
+                    <div class="hamb_aside_2">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153"/></svg>
+                    </div>
+                    <div class="scroll">
+                        <div class="b_sertificates">
+                            <h5>Сертификаты</h5>
+                            <div class="slider-wrp">
+                                <svg version="1.1" class="arr-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153"/></svg>
+                                <svg version="1.1" class="arr-right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve"><polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153"/></svg>
+                                <div class="certificate-slider">
+                                    <div>
+                                        <div class="certificate"><img class="img-responsive" src="../images/index/certificates/1.png" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <div class="certificate"><img class="img-responsive" src="../images/index/certificates/2.png" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <div class="certificate"><img class="img-responsive" src="../images/index/certificates/3.png" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <div class="certificate"><img class="img-responsive" src="../images/index/certificates/4.png" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <div class="certificate"><img class="img-responsive" src="../images/index/certificates/5.png" alt=""></div>
+                                    </div>
+                                    <div>
+                                        <div class="certificate"><img class="img-responsive" src="../images/index/certificates/6.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b_done">
+                            <h5>Выполненный объект</h5>
+                            <div class="wrap">
+                                <img src="../images/projects/9.jpg" alt="">
+                                <div>
+                                    <a href="#" class="azure">Цех по производству высокоточных деталей</a>
+                                    <p>800 000 руб.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b_instructions">
+                            <h5>Инструкции</h5>
+                            <div class="v-center">
+                                <img src="../images/ico/pdf.png" alt="">
+                                <a href="#" class="azure">Руководство по эксплуатации настенных сплит-систем Ballu серии BSE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="b_leaders col-md-9 col-xs-12">
+                    <h2>Похожие товары</h2>
+                    <div class="scroll">
+                        <div class="b_inside_scroll">
+                            <a href="#" class="leaders_item v-center">
+                                <img src="../images/leaders/1.png" alt="">
+                                <div>
+                                    <h5 class="azure">Samsung GTE0090M</h5>
+                                    <p>800 000 руб.</p>
+                                </div>
+                            </a>
+                            <a href="#" class="leaders_item v-center">
+                                <img src="../images/leaders/2.png" alt="">
+                                <div>
+                                    <h5 class="azure">Daikin GWE0009M</h5>
+                                    <p>300 000 руб.</p>
+                                </div>
+                            </a>
+                            <a href="#" class="leaders_item v-center">
+                                <img src="../images/leaders/3.png" alt="">
+                                <div>
+                                    <h5 class="azure">Shivaki SWA0080M</h5>
+                                    <p>100 000 руб.</p>
+                                </div>
+                            </a>
+                            <a href="#" class="leaders_item v-center">
+                                <img src="../images/leaders/3.png" alt="">
+                                <div>
+                                    <h5 class="azure">Shivaki SWA0080M</h5>
+                                    <p>100 000 руб.</p>
+                                </div>
+                            </a>
+                            <a href="#" class="leaders_item v-center">
+                                <img src="../images/leaders/3.png" alt="">
+                                <div>
+                                    <h5 class="azure">Shivaki SWA0080M</h5>
+                                    <p>100 000 руб.</p>
+                                </div>
+                            </a>
+                            <a href="#" class="leaders_item v-center">
+                                <img src="../images/leaders/3.png" alt="">
+                                <div>
+                                    <h5 class="azure">Shivaki SWA0080M</h5>
+                                    <p>100 000 руб.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container b_viewed">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Вы смотрели</h2>
+                </div>
+                <div class="viewed_wrp col-xs-12">
+                    <a href="#" class="leaders_item v-center">
+                        <img src="../images/leaders/1.png" alt="">
+                        <div>
+                            <h5 class="azure">Samsung GTE0090M</h5>
+                            <p>800 000 руб.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="leaders_item v-center">
+                        <img src="../images/leaders/2.png" alt="">
+                        <div>
+                            <h5 class="azure">Daikin GWE0009M</h5>
+                            <p>300 000 руб.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="leaders_item v-center">
+                        <img src="../images/leaders/3.png" alt="">
+                        <div>
+                            <h5 class="azure">Shivaki SWA0080M</h5>
+                            <p>100 000 руб.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="leaders_item v-center">
+                        <img src="../images/leaders/3.png" alt="">
+                        <div>
+                            <h5 class="azure">Shivaki SWA0080M</h5>
+                            <p>100 000 руб.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="article p_item advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Преимущества нашего интернет-магазина</h2>
+                </div>
+                <div class="col-md-3 col-xs-6 v-center">
+                    <img src="../images/afvantages/1.png" alt="">
+                    <p>24 часа в сутки <br>сервисное обслуживание</p>
+                </div>
+                <div class="col-md-3 col-xs-6 v-center">
+                    <img src="../images/afvantages/2.png" alt="">
+                    <p>Гарантия качества на <br>всю продукцию</p>
+                </div>
+                <div class="col-md-3 col-xs-6 v-center">
+                    <img src="../images/afvantages/3.png" alt="">
+                    <p>За 10 лет на рынке мы <br>завоевали доверие</p>
+                </div>
+                <div class="col-md-3 col-xs-6 v-center">
+                    <img src="../images/afvantages/4.png" alt="">
+                    <p>Комплекс услуг <br>от продажи до ремонта</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p_item article g_more">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Проектирование установка и монтаж систем вентиляции и кондиционирования</h2>
+                    <p>Современные тенденции строительного рынка направлены на максимальное снижение затрат без уменьшения уровня комфорта. В связи с этим одной из первостепенных задач является повышение энергоэффективности зданий. Для достижения необходимых показателей инженеры разрабатывают способы экономии энергоресурсов, увеличения отдачи от каждого израсходованного киловатта электричества. На рынке появляются новые теплоизоляционные материалы, внедряются технологии использования альтернативных источников энергии.</p>
+                    <p>Производители климатического оборудования внимательно отслеживают актуальные тенденции и предлагают технику, соответствующую современным высоким требованиям энергосбережения. Так, мультизональные системы кондиционирования на каждый потраченный киловатт тепла способны выдавать до 4,6 кВт холода. Благодаря высоким показателям энергосбережения и так же ряду других неоспоримых преимуществ, системы данного типа все чаще устанавливают на современных объектах коммерческой и жилой недвижимости для контроля температурного режима. Мультизональные VRF-системы представляют собой комплекс оборудования для кондиционирования нескольких помещений одновременно. Аббревиатура VRF означает Variable Refrigerant Flow и переводится с английского как «переменный поток хладагента».</p>
+                    <a href="#" class="more azure"><img src="../images/ico/more.png" alt="">Читать подробнее о кондиционерах</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <h5>Вентиляция</h5>
+                        <a href="#">Вентиляционные установки</a>
+                        <a href="#">Вытяжная вентиляция</a>
+                        <a href="#">Приточная вентиляция</a>
+                        <a href="#">Приточно-вытяжная вентиляция</a>
+                        <a href="#">Расчет вентиляции</a>
+                        <a href="#">Проектирование вентиляции</a>
+                        <a href="#">Монтаж вентиляции</a>
+                    </div>
+                    <div class="col-sm-5 col-xs-12">
+                        <h5>Промышленные кондиционеры</h5>
+	                    <a href="#"> Мультизональные системы кондиционирования VRV и VRF</a>
+	                    <a href="#">Чиллеры</a>
+	                    <a href="#">Фанкойлы</a>
+	                    <a href="#">Сплит-системы большой производительности</a>
+	                    <a href="#">Прецизионные кондиционеры</a>
+	                    <a href="#">Крышные кондиционеры</a>
+	                    <a href="#">Центральные кондиционеры</a>
+                    </div>
+                    <div class="col-sm-3 col-xs-12">
+                        <h5>Информация для клиента</h5>
+	                    <a href="#">Расчет вентиляции (калькулятор)</a>
+	                    <a href="#">Расчет кондиционирования (калькулятор)</a>
+	                    <a href="#">Типы вентиляции</a>
+	                    <a href="#">Услуги</a>
+	                    <a href="#">Статьи</a>
+	                    <a href="#">Вопросы и ответы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_center">
+            <div class="container">
+                <div class="row">
+                    <nav class="col-lg-7 col-xs-12 footer_nav">
+                        <a href="#" class="nav_a" cl>О компании</a>
+                        <a href="#" class="nav_a active">Наши объекты</a>
+                        <a href="#" class="nav_a">Отзывы</a>
+                        <a href="#" class="nav_a">Гарантии</a>
+                        <a href="#" class="nav_a">Лицензии и сертификаты</a>
+                        <a href="#" class="nav_a">Контакты</a>
+                    </nav>
+                    <div class="col-lg-5 col-xs-12">
+                        <div class="pull-right">
+                            <p>2007-2016 © Компания ООО “EcoLine”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 v-center">
+                        <div class="b_left">
+                            <a href="tel:89504454546" class="footer_telephone">8 950 445 45 46</a>
+                            <p>Звонок по России бесплатный</p>
+                        </div>
+                        <div>
+                            <p>По всем вопросам: <a href="mailto:hello@ecoline.ru" class="azure">hello@ecoline.ru</a></p>
+                            <a href="#" class="azure">Письмо директору</a>
+                        </div>
+                        <div class="btn blue open_call">Заказать звонок</div>
+                        <div class="b_right"><a href="#" class="azure">Разработка и продвижение <img src="../images/ico/dev_logo.svg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay"></div>
+    <div class="popup call">
+        <div class="close_pop"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path d="M1068.77,546.988l12.24,12.241-2.78,2.782-12.24-12.241Zm9.46,0-12.24,12.241,2.78,2.782,12.24-12.241Z" transform="translate(-1066 -547)"/></svg></div>
+        <h2>Заказать обратный звонок</h2>
+        <p>Консультация с сотрудником отдела продаж или сервисной службы займет меньше времени, чем самостоятельный поиск!</p>
+        <p>Введите номер телефона:</p>
+        <form action="">
+            <input type="text" name="phone">
+            <button type="submit" class="btn blue">Заказать звонок</button>
+        </form>
+    </div>
+    <div class="popup req">
+        <div class="close_pop"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path d="M1068.77,546.988l12.24,12.241-2.78,2.782-12.24-12.241Zm9.46,0-12.24,12.241,2.78,2.782,12.24-12.241Z" transform="translate(-1066 -547)"/></svg></div>
+        <h2>Вызвать специалиста на объект</h2>
+        <form action="">
+            <p>Введите имя<sup>*</sup>:</p>
+            <input type="text" name="name">
+            <p>Контактный телефон<sup>*</sup>:</p>
+            <input type="text" name="phone">
+            <p>Комментарий к заказу:</p>
+            <textarea name="coment"></textarea>
+            <button type="submit" class="btn blue">Оформить заказ</button>
+        </form>
+    </div>
+    <div class="popup zak">
+        <div class="close_pop"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path d="M1068.77,546.988l12.24,12.241-2.78,2.782-12.24-12.241Zm9.46,0-12.24,12.241,2.78,2.782,12.24-12.241Z" transform="translate(-1066 -547)"/></svg></div>
+        <h2>Оформление заказа</h2>
+        <form action="">
+            <p>Введите имя<sup>*</sup>:</p>
+            <input type="text" name="name">
+            <p>Контактный телефон<sup>*</sup>:</p>
+            <input type="text" name="phone">
+            <p>E-mail:</p>
+            <input type="text" name="mail">
+            <p>Организация:</p>
+            <input type="text" name="org">
+            <button type="submit" class="btn blue">Оформить заказ</button>
+        </form>
+    </div>
+    <div class="popup com">
+        <div class="close_pop"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path d="M1068.77,546.988l12.24,12.241-2.78,2.782-12.24-12.241Zm9.46,0-12.24,12.241,2.78,2.782,12.24-12.241Z" transform="translate(-1066 -547)"/></svg></div>
+        <h2>Коммерческое предложение</h2>
+        <form class="email-required" action="">
+            <p>ФИО:</p>
+            <input type="text" name="name">
+            <p>E-mail<sup>*</sup>:</p>
+            <input type="text" name="mail">
+            <p>Организация:</p>
+            <input type="text" name="org">
+            <button type="submit" class="btn blue">Оформить заказ</button>
+        </form>
+    </div>
+    <div class="popup ofe">
+        <div class="close_pop"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path d="M1068.77,546.988l12.24,12.241-2.78,2.782-12.24-12.241Zm9.46,0-12.24,12.241,2.78,2.782,12.24-12.241Z" transform="translate(-1066 -547)"/></svg></div>
+        <h2>Оформление заказа</h2>
+        <form class="email-required" action="">
+            <p>ФИО:</p>
+            <input type="text" name="name">
+            <p>E-mail<sup>*</sup>:</p>
+            <input type="text" name="mail">
+            <p>Организация:</p>
+            <input type="text" name="org">
+            <button type="submit" class="btn blue">Оформить заказ</button>
+        </form>
+    </div>
+    <div class="popup thnx">
+        <div class="close_pop"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><path d="M1068.77,546.988l12.24,12.241-2.78,2.782-12.24-12.241Zm9.46,0-12.24,12.241,2.78,2.782,12.24-12.241Z" transform="translate(-1066 -547)"/></svg></div>
+        <img src="../images/calculator/chek-popup.png" alt="">
+        <h2>Спасибо!</h2>
+        <p>Наши менеджеры скоро <br> свяжуться с Вами!</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../res/jquery.maskedinput.min.js"></script>
+    <script src="../res/jquery.validate.min.js"></script>
+    <script src="../res/lightslider/lightslider.min.js"></script>
+    <script src="../res/perfectScrollbar/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../res/popover/jquery.webui-popover.min.js"></script>
+    <script src="../js/item.js"></script>
+    <script src="../js/aside.js"></script>
+    <script src="../js/global.js"></script>
+</body>
+</html>

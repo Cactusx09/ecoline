@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="26px" height="33px" viewBox="0 0 26 33">
+<filter filterUnits="objectBoundingBox" x="0.00" y="0.00" width="100.00" height="100.00" id="filter0">
+<feFlood flood-color="rgb(49,163,229)" result="coFloodOut1"/>
+<feComposite in="coFloodOut1" in2="SourceAlpha" operator="in" result="coOverlay1"/>
+<feBlend in="coOverlay1" in2="SourceGraphic" mode="normal" result="colorOverlay1"/>
+</filter>
+<path fillRule="evenodd" d="M 24 33C 24 33 2 33 2 33 0.9 33-0 32.1-0 31-0 31-0 2-0 2-0 0.9 0.9-0 2-0 2-0 24-0 24-0 25.1-0 26 0.9 26 2 26 2 26 31 26 31 26 32.1 25.1 33 24 33ZM 24 2C 24 2 2 2 2 2 2 2 2 31 2 31 2 31 24 31 24 31 24 31 24 2 24 2ZM 21 11C 21 11 5 11 5 11 5 11 5 5 5 5 5 5 21 5 21 5 21 5 21 11 21 11ZM 9 18C 9 18 5 18 5 18 5 18 5 14 5 14 5 14 9 14 9 14 9 14 9 18 9 18ZM 9 23C 9 23 5 23 5 23 5 23 5 19 5 19 5 19 9 19 9 19 9 19 9 23 9 23ZM 9 28C 9 28 5 28 5 28 5 28 5 24 5 24 5 24 9 24 9 24 9 24 9 28 9 28ZM 15 18C 15 18 11 18 11 18 11 18 11 14 11 14 11 14 15 14 15 14 15 14 15 18 15 18ZM 15 23C 15 23 11 23 11 23 11 23 11 19 11 19 11 19 15 19 15 19 15 19 15 23 15 23ZM 15 28C 15 28 11 28 11 28 11 28 11 24 11 24 11 24 15 24 15 24 15 24 15 28 15 28ZM 21 18C 21 18 17 18 17 18 17 18 17 14 17 14 17 14 21 14 21 14 21 14 21 18 21 18ZM 21 24C 21 24 21 28 21 28 21 28 17 28 17 28 17 28 17 24 17 24 17 24 17 19 17 19 17 19 21 19 21 19 21 19 21 24 21 24Z" fill="rgb(207,167,179)" filter="url(#filter0)"/></svg>

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("PTSansRegular/PTSansRegular.eot");
+    src: url("PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("PTSansRegular/PTSansRegular.woff") format("woff"),
+    url("PTSansRegular/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "PTSans";
+    src: url("PTSansBold/PTSansBold.eot");
+    src: url("PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+    url("PTSansBold/PTSansBold.woff") format("woff"),
+    url("PTSansBold/PTSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('ProximaNova-Light/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),  url('ProximaNova-Light/ProximaNova-Light.otf')  format('opentype'),
+	     url('ProximaNova-Light/ProximaNova-Light.woff') format('woff'), url('ProximaNova-Light/ProximaNova-Light.ttf')  format('truetype'), url('ProximaNova-Light/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
